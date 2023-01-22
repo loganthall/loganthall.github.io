@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+	<!-- css files -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+
+	<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+	<meta name="author" content="Logan Hall">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+	<body>
+		<!-- Navbar -->
+		<nav class="nav container void-background">
+			<!-- This "nav-menu" is hidden on mobile -->
+			<!-- Add the modifier "is-active" to display it on mobile -->
+			<div class="nav-left">
+				<a target="_blank" href="https://medium.com/@info.tech.logan/" class="nav-item" title="Medium Blog" aria-details="Medium Blog">
+					<span class="icon">
+						<i class="fa fa-medium"></i>
+					</span>
+				</a>
+				<a target="_blank" href="https://github.com/loganthall" class="nav-item" title="GitHub Repos" aria-details="GitHub Repos">
+					<span class="icon">
+						<i class="fa fa-github"></i>
+					</span>
+				</a>
+				<a target="_blank" href="https://www.linkedin.com/in/loganthall/" class="nav-item" title="LinkedIn Profile" aria-details="LinkedIn Profile">
+					<span class="icon">
+						<i class="fa fa-linkedin-square"></i>
+					</span>
+				</a>
+			</div>
+
+			<div class="nav-right nav-menu">
+				<a class="nav-item" href="#about">About</a>
+				<a class="nav-item" href="#projects">Projects</a>
+				<a class="nav-item" href="#social">Social</a>
+			</div>
+
+			<!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+			<!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+			<span class="nav-toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</span>
+		</nav>
+
+		<!-- About Me -->
+		<section id="about" class="section section-1">
+			<div class="container has-text-centered">
+				<!-- Source: https://flic.kr/p/pAZBNK -->
+				<img class="avatar" src="assets/img/avatar2.jpg">
+			</div>
+			<div class="container"></br>
+				<p class="intro">
+					<p class="name">Logan Hall</p>
+					<p class="intro-description">An aspiring Software Developer, on my journey to fulfill that aspiration.
+						I am always challenging myself to move forward in my career. I take initiative when needed, and
+						work equally well with or without supervision. Diving right into a project and getting a solid plan
+						together to implement is something I consider important. Ultimately, I am looking to use my knowledge
+						and experience in a positive, challenging way, and to expand upon my skill set at all times.
+						Technology truly is my passion, and I intend to turn that passion into a career.
+					</p>
+				</p>
+			</div>
+		</section>
+
+		<!-- Projects -->
+		<section  id="projects" class="section section-2">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Projects</h3>
+				</div>
+
+				<div class="columns is-multiline is-desktop">
+					<!-- Project 1 -->
+					<div class="column">
+						<a href="https://github.com/loganthall/the_escape" class="projects"><div class="box project-text" title="Go to The Escape Demo">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/the-escape.png" alt="Image">
+									</figure>
+								</div>
+								<div>
+									<p class="name">
+										The Escape
+									</p>
+									<p>
+										Fundamentals of Python course personal project: Text-based Choose Your Own Path Adventure. This project highlights the using of random integer creations for the illusion of full user autonomy in their choices.
+									</p>
+								</div>
+							</article>
+						</div></a>
+					</div>
+					<!-- Project 2 -->
+					<div class="column">
+						<a href="https://github.com/loganthall/python_OOP_workshop" class="projects"><div class="box project-text" title="Go to OOP Demo">
+							<article>
+								<div>
+									<figure class="image project-figure">
+										<img src="assets/img/Object-oriented-programming.jpg" alt="Image">
+									</figure>
+								</div>
+								<div>
+									<p class="name">
+										OOP Demo
+									</p>
+									<p>
+										Bless up. Another one. How’s business? Boomin. Don’t ever play yourself. Life is what you make it, so let’s make it.
+									</p>
+								</div>
+							</article>
+						</div></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Social -->
+		<section id="social" class="section section-3">
+			<div class="container">
+				<div class="has-text-centered">
+					<h3 class="title is-3">Let's Socialize</h3>
+				</div>
+				<div class="social-container columns">
+					<div>
+						<a target="_blank" href="https://www.linkedin.com/in/loganthall/"><img class="linkedin" src="assets/img/linkedin.png" title="LinkedIn Profile" aria-details="LinkedIn Profile"></a>
+					</div>
+					<div>
+						<a target="_blank" href="https://twitter.com/LoganHallDev"><img class="twitter" src="assets/img/twitter.png" title="Twitter Profile" aria-details="Twitter Profile"></a>
+					</div>
+					<div>
+						<a target="_blank" href="https://replit.com/@loganthall"><img class="replit" src="assets/img/replit.png" title="Replit Repos" aria-details="Replit Repos"></a>
+					</div>
+					<div>
+						<a target="_blank" href="https://medium.com/@info.tech.logan"><img class="medium" src="assets/img/medium-logo-transparent.png" title="Medium Blog" aria-details="Medium Blog"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section class="section-4 has-text-centered container">
+			<a href="http://www.hallsoftworks.com/about">Logan Hall</a>
+		</section>
+
+		<!-- Scripts  -->
+		<script src="controller.js"></script>
+	</body>
+</html>

@@ -9,16 +9,17 @@ html, body{
 }
 
 a {
-  color: #00d1b2;
+	color: #00d1b2;
 }
 
 a:hover {
-  color: #00d1b2;
+	color: #00d1b2;
 }
 
 section{
 	padding-top: 3rem;
 	padding-bottom: 3rem;
+	box-shadow: 0px 0px 5px 3px #3a7241;
 }
 
 .section-1 {
@@ -63,7 +64,7 @@ a.nav-item:hover {
 	transition-property: transform;
 }
 
-.avatar{
+.avatar {
 	height:350px;
 	border-style: solid;
 	border-width: 0.3rem;
@@ -72,7 +73,7 @@ a.nav-item:hover {
 	box-shadow: 0rem 0rem 100px #bcd1be;
 }
 
-.intro-description{
+.intro-description {
 	padding-top: 1rem;
 }
 
@@ -87,7 +88,7 @@ ul {
 	color: #979797;
 }
 
-.social-container img{
+.social-container img {
 	max-width:100%;
 	max-height:150px;
 	margin-bottom:15px;
@@ -115,7 +116,7 @@ ul {
 	grid-column: 2 / span 1;
 }
 
-.replit{
+.replit {
 	grid-column: 3 /span 1;
 }
 
